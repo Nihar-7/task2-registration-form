@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS2.CSS">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont1">
+            <header id="head">
+                <h1>Student Enrollment Form</h1>
+            </header>
+
+        </div>
+        <div class="cont">
+
+            <section id="sec1">
+
+
+                <form action="" id="form" name="myform">
+                    <div class="box">
+                        <label for="name" style="margin-right: 69px;">Name</label>
+                        <input type="text" id="name">
+
+                    </div>
+                    <div class="box">
+                        <label for="email" style="margin-right: 69px;">Email</label>
+                        <input type="email" id="email">
+
+                    </div>
+                    <div class="box">
+                        <label for="website" style="margin-right: 56px;">Website</label>
+                        <input type="text" id="website">
+
+                    </div>
+                    <div class="box">
+                        <label for="image" style="margin-right: 35px;">Image link</label>
+                        <input type="link" id="image">
+
+                    </div>
+                    <div class="box">
+
+                        <label for="gender" style="margin-right: 55px;">Gender</label>
+
+                        <input type="radio" id="male" name="same" value="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="same" value="Female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="others" name="same" value="Others">
+                        <label for="others">Others</label>
+                    </div>
+
+                    <div class="box">
+                        <label for="skill" style="margin-right: 68px;">Skills</label>
+
+                        <input type="checkbox" id="lang" name="s1" value="Java">
+                        <label for="lang">Java</label>
+                        <input type="checkbox" id="lang" name="s2" value="HTML">
+                        <label for="lang">HTML</label>
+                        <input type="checkbox" id="lang" name="s3" value="CSS">
+                        <label for="lang">CSS</label>
+
+
+
+                    </div>
+                    <div class="box">
+
+                        <button id="enroll">Enroll Student</button>
+
+
+                    </div>
+
+
+                </form>
+
+
+            </section>
+            <hr>
+            <section id="sec2">
+                <h1>Enrolled Students</h1>
+                <div class="stu">
+                    <table border="2">
+                        <tr>
+                            <th style="width:323px">Description</th>
+                            <th style="width: 225px">Image</th>
+                        </tr>
+
+                    </table>
+
+                    <table border="2" id="tab">
+
+                    </table>
+
+
+                </div>
+
+
+            </section>
+        </div>
+
+    </div>
+
+    <script src="JS2.JS"></script>
+</body>
+
+</html>

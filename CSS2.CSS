@@ -1,0 +1,181 @@
+body{
+    background:url("w4.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+#head{
+    display: block;
+    margin: auto;
+    background:url("w1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 3px 3px 5px rgb(30, 0, 255);
+    border-radius: 20px;
+    box-shadow: rgba(142, 13, 26, 0.9) 0px 50px 100px -20px, rgba(173, 9, 9, 0.65) 0px 30px 60px -30px, rgba(197, 15, 63, 0.797) 0px -2px 6px 0px inset;
+    border: 2px solid rgb(51, 0, 128);
+    
+    width: 100%;
+    color: aliceblue;
+    
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cont{
+    display: flex;
+    
+}
+
+
+form{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    
+    
+}
+
+.box{
+    display: flex;
+    padding: 5px 50px;
+    margin: 11px 30px;
+}
+
+#sec1{
+    background: url("w3.jpg");
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    width: 100%;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: rgba(142, 13, 26, 0.9) 0px 50px 100px -20px, rgba(173, 9, 9, 0.65) 0px 30px 60px -30px, rgba(197, 15, 63, 0.797) 0px -2px 6px 0px inset;
+    border: 2px solid rgba(128, 0, 0, 1);   
+    
+}
+label{
+    margin: 10px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px #900C3F;
+    
+}
+
+hr{
+    display: inline;
+    
+
+    margin: 8px;
+    width: 5px;
+    background-color: rgb(7, 9, 8);
+}
+#sec2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 100%;
+    align-items: center;
+    background: url("w3.jpg");
+    margin: 14px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: rgba(142, 13, 26, 0.9) 0px 50px 100px -20px, rgba(173, 9, 9, 0.65) 0px 30px 60px -30px, rgba(197, 15, 63, 0.797) 0px -2px 6px 0px inset;
+    border: 2px solid rgba(128, 0, 0, 1);
+    
+    
+}
+.cont1{
+    display: flex;
+    text-align: center;
+}
+
+button{
+    margin: 8px;
+    border-radius: 4px;
+    padding: 13px;
+    font-size: large;
+    color: #f0f8ff;
+    border: none;
+    font-weight: bolder;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#enroll{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 50px;
+    background-color:#581845;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);;
+}
+
+
+#enroll:hover{
+    background-color: #900C3F
+    
+}
+
+.stu{
+    border: 2px solid black;
+}
+.box2{
+    border: 2px solid black;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+td>h2,td>p,td>a{
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+h1{
+    text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);;
+    color: aliceblue;
+    
+}
+table{
+    color: aliceblue;
+    border-color:whitesmoke;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);;
+    box-shadow: rgba(142, 13, 15, 0.9) 0px 50px 100px -20px, rgba(9, 9, 173, 0.65) 0px 30px 60px -30px, rgba(15, 15, 197, 0.797) 0px -2px 6px 0px inset;
+}
+a{
+    color: aqua;
+}
+
+input{
+    font-weight: bolder;
+    border-radius: 4px;
+    height: 19px;
+    margin: 10px;
+    box-shadow: rgba(142, 13, 15, 0.9) 0px 50px 100px -20px, rgba(9, 9, 173, 0.65) 0px 30px 60px -30px, rgba(15, 15, 197, 0.797) 0px -2px 6px 0px inset;
+}
+
+span{
+    text-shadow: 3px 3px 5px rgb(0, 128, 47);;
+    color: rgb(188, 187, 102);
+
+}
